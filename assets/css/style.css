@@ -1,0 +1,47 @@
+margin {
+  margin: 0;
+}
+.top{
+  height: 30px;
+  background-color: #333333;
+}
+.top_inner{
+  width: 100%; 
+  max-width:1040px;
+  height: 30px;
+  margin: auto;
+}
+.top_left{
+  width: 50%;
+  height: 30px;
+  float: left;
+  background-color: red;
+
+}
+.top_left ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.top_left li{
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.top_left li a{
+  text-decoration: none;
+  color: white;
+}
+.top_left li :active{
+  color: blue;
+} 
+.top_right{
+  width: 50%;
+  height: 30px;
+  float: right;
+  background-color: blue;
+
+}
