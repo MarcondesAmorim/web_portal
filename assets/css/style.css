@@ -3,19 +3,18 @@ margin {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
-.top{
+.top {
   height: 30px;
   background-color: black;
   color: white;
-
 }
-.top_inner{
-  width: 100%; 
-  max-width:1040px;
+.top_inner {
+  width: 100%;
+  max-width: 1040px;
   height: 30px;
   margin: auto;
 }
-.top_left{
+.top_left {
   width: 50%;
   height: 30px;
   float: left;
@@ -24,74 +23,124 @@ margin {
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
-.top_left li{
+.top_left li {
   height: 30px;
   line-height: 30px;
   float: left;
   margin-left: 8px;
   margin-right: 8px;
 }
-.top_left li a{
+.top_left li a {
   text-decoration: none;
   color: white;
 }
-.top_left li :active{
-  color: blue;
-} 
-.top_left li .ativo{
+.top_left li :active {
   color: blue;
 }
-.top_right{
+.top_left li .ativo {
+  color: blue;
+}
+.top_right {
   width: 50%;
   height: 28px;
   float: right;
-  text-align:right;
+  text-align: right;
   margin-top: 2px;
 }
-.top_search{
+.top_search {
   width: 110px;
   height: 20px;
   outline: 0;
 }
-.top_right a{
+.top_right a {
   float: right;
 }
-.top_right input{
+.top_right input {
   float: right;
 }
-.top_right img{
+.top_right img {
   margin-right: 2px;
 }
 
-.btn_search{
+.btn_search {
   width: 24px;
   height: 24px;
   background-color: red;
   border-radius: 3px;
 }
 
-.top_plub{
+.top_plub {
   height: 95px;
-   color: black;
+  color: black;
 }
-.top_plub_inner{
-  width: 100%; 
-  max-width:1040px;
+.top_plub_inner {
+  width: 100%;
+  max-width: 1040px;
   height: 95px;
   margin: auto;
 }
-.logo{
+.logo {
   width: 230px;
   height: 90px;
   float: left;
-  margin-top:5px;
+  margin-top: 5px;
 }
-.top_plub_inner .banner{
+.top_plub_inner .banner {
   width: 650px;
   height: 80px;
   float: right;
   margin-top: 7px;
   background-color: red;
+}
+.menu {
+  height: 40px;
+  background-color: red;
+}
+.menu_inner {
+  width: 100%;
+  height: 40px;
+  max-width: 1040px;
+  margin: auto;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.menu li:hover {
+  background-color: #ff5555;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.submenu {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  display: none;
+}
+.submenu_item {
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.submenu_item:hover {
+  background-color: #ff5555;
 }
