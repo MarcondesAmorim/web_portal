@@ -144,3 +144,49 @@ margin {
 .submenu_item:hover {
   background-color: #ff5555;
 }
+.latest_news {
+  height: 40px;
+}
+.latest_news_inner {
+  width: 100%;
+  height: 4 0px;
+  max-width: 1040px;
+  margin: auto;
+}
+.latest_news_area {
+  height: 28px;
+  background-color: white;
+  border: 1px solid gray;
+  margin-top: 10px;
+}
+.latest_news_title {
+  background-color: red;
+  color: white;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.latest_news_news {
+  color: black;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  padding-left: 5px;
+}
+.container_inner {
+  width: 100%;
+  max-width: 1040px;
+  margin: auto;
+}
+.container_inner_left_side {
+  width: 753px;
+  float: left;
+}
+.container_inner_right_side {
+  width: 275px;
+  float: right;
+  margin-left: 12px;
+}
