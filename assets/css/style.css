@@ -183,7 +183,6 @@ margin {
 }
 .container_inner_left_side {
   width: 753px;
-  min-height: 200px;
   float: left;
 }
 .container_inner_right_side {
@@ -192,31 +191,79 @@ margin {
   float: right;
   margin-left: 12px;
 }
-.widget{
+.widget {
   border: 1px solid gray;
   background-color: white;
   margin-bottom: 10px;
 }
-.widget_title{
+.widget_title {
   height: 30px;
   line-height: 30px;
   border-bottom: 1px solid gray;
   padding-left: 50px;
   font-size: 14px;
 }
-.widget_content{
+.widget_content {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-} 
-.news_item{
+}
+.news_item {
   font-size: 14px;
   margin: 0px 10px;
   padding: 10px 0px;
   text-align: left;
   border-bottom: 1px solid gray;
 }
-.news_item a{
+.news_item a {
   text-decoration: none;
   color: black;
+}
+.slideshow {
+  height: 335px;
+  overflow: hidden;
+}
+.slideshow_area {
+  width: 100000px;
+  height: 335px;
+  transition: all 1s;
+}
+.slide {
+  height: 335px;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slideinfo {
+  height: 70px;
+  background-image: url("../images/slideshow_bg.png");
+  background-size: auto 70px;
+  margin-top: 265px;
+}
+.slideinfo_title {
+  font-size: 20px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.slideinfo_subtitle {
+  font-size: 13px;
+  color: white;
+  padding-left: 20px;
+}
+
+.slideshow_button {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+}
+.button {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 10px;
 }

@@ -5,10 +5,11 @@
     <meta
       id="viewport"
       name="viewport"
-      content="width=device, user-scalable=no"
+      content="width=device-width, user-scalable=no"
     />
     <title>Portal</title>
     <link href="assets/css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="assets/js/script.js"></script>
   </head>
   <body>
     <div class="top">
@@ -134,25 +135,97 @@
     </div>
     <div class="container">
       <div class="container_inner">
-        <div class="container_inner_left_side"></div>
-        <div class="container_inner_right_side"> 
+        <div class="container_inner_left_side">
+          <div class="slideshow" id="slideshow">
+            <div class="slideshow_button">
+              <div class="button" onclick="changeSlide(0)"></div>
+              <div class="button" onclick="changeSlide(1)"></div>
+              <div class="button" onclick="changeSlide(2)"></div>
+              <div class="button" onclick="changeSlide(3)"></div>
+            </div>
+            <div class="slideshow_area">
+              <div
+                class="slide"
+                style="background-image:url('assets/images/google.jpg')"
+              >
+                <div class="slideinfo">
+                  <div class="slideinfo_title">Test Title 1</div>
+                  <div class="slideinfo_subtitle">Test Subtitle</div>
+                </div>
+              </div>
+              <div
+                class="slide"
+                style="background-image:url('assets/images/google.jpg')"
+              >
+                <div class="slideinfo">
+                  <div class="slideinfo_title">Test Title 2</div>
+                  <div class="slideinfo_subtitle">Test Subtitle</div>
+                </div>
+              </div>
+              <div
+                class="slide"
+                style="background-image:url('assets/images/google.jpg')"
+              >
+                <div class="slideinfo">
+                  <div class="slideinfo_title">Test Title 3</div>
+                  <div class="slideinfo_subtitle">Test Subtitle</div>
+                </div>
+              </div>
+              <div
+                class="slide"
+                style="background-image:url('assets/images/google.jpg')"
+              >
+                <div class="slideinfo">
+                  <div class="slideinfo_title">Test Title 4</div>
+                  <div class="slideinfo_subtitle">Test Subtitle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container_inner_right_side">
           <div class="widget">
             <div class="widget_title">SOCIAL</div>
-            <div class="widget_content"> 
+            <div class="widget_content">
               <a href="">
-                <img src="assets/images/rss.png" border="0" width="26" height="26"/>
+                <img
+                  src="assets/images/rss.png"
+                  border="0"
+                  width="26"
+                  height="26"
+                />
               </a>
               <a href="">
-                <img src="assets/images/googleplus.png" border="0" width="26" height="26"/>
+                <img
+                  src="assets/images/googleplus.png"
+                  border="0"
+                  width="26"
+                  height="26"
+                />
               </a>
               <a href="">
-                <img src="assets/images/facebook.png" border="0" width="26" height="26"/>
+                <img
+                  src="assets/images/facebook.png"
+                  border="0"
+                  width="26"
+                  height="26"
+                />
               </a>
               <a href="">
-                <img src="assets/images/twitter.png" border="0" width="26" height="26"/>
+                <img
+                  src="assets/images/twitter.png"
+                  border="0"
+                  width="26"
+                  height="26"
+                />
               </a>
               <a href="">
-                <img src="assets/images/youtube.png" border="0" width="26" height="26"/>
+                <img
+                  src="assets/images/youtube.png"
+                  border="0"
+                  width="26"
+                  height="26"
+                />
               </a>
             </div>
           </div>
@@ -161,42 +234,55 @@
             <div class="widget_content">
               <div class="news_item">
                 <a href=">">
-                  news headline so that it has two lines and I can exemplify right.
+                  news headline so that it has two lines and I can exemplify
+                  right.
                 </a>
               </div>
               <div class="news_item">
                 <a href=">">
-                  news headline so that it has two lines and I can exemplify right.
+                  news headline so that it has two lines and I can exemplify
+                  right.
                 </a>
               </div>
               <div class="news_item">
                 <a href=">">
-                  news headline so that it has two lines and I can exemplify right.
+                  news headline so that it has two lines and I can exemplify
+                  right.
                 </a>
               </div>
               <div class="news_item">
                 <a href=">">
-                  news headline so that it has two lines and I can exemplify right.
+                  news headline so that it has two lines and I can exemplify
+                  right.
                 </a>
               </div>
               <div class="news_item">
                 <a href=">">
-                  news headline so that it has two lines and I can exemplify right.
+                  news headline so that it has two lines and I can exemplify
+                  right.
                 </a>
               </div>
             </div>
           </div>
           <div class="widget">
-            <div class="widget_title">ADVERTISING
-            </div>
+            <div class="widget_title">ADVERTISING</div>
             <div class="widget_content">
-              <img src="" border="" width="275" height="275"/>
+              <img src="" border="" width="275" height="275" />
             </div>
           </div>
           <div class="widget">
             <div class="widget_title">FIND US ON FACEBOOK</div>
             <div class="widget_content">
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarcondes.amorim&tabs&width=0&height=0&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=2001661413399633" width="0" height="0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmarcondes.amorim&tabs&width=0&height=0&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=2001661413399633"
+                width="0"
+                height="0"
+                style="border:none;overflow:hidden"
+                scrolling="no"
+                frameborder="0"
+                allowTransparency="true"
+                allow="encrypted-media"
+              ></iframe>
             </div>
           </div>
         </div>
