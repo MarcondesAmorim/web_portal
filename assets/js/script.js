@@ -17,16 +17,15 @@ function passaSlide() {
     slideItem++;
   }
 
-  
   document.getElementsByClassName("slideshow_area")[0].style.marginLeft =
     "-" + slidewidth * slideItem + "px";
   var objs = document.getElementsByClassName("button");
-  for (var i=0;i < objs.length; i++){
-    if (i == slideItem){
+  for (var i = 0; i < objs.length; i++) {
+    if (i == slideItem) {
       objs[i].style.backgroundColor = "black";
     } else {
       objs[i].style.backgroundColor = "gray";
-    };
+    }
   }
 }
 function changeSlide(pos) {
@@ -35,13 +34,12 @@ function changeSlide(pos) {
   var slidewidth = document.getElementById("slideshow").offsetWidth;
   document.getElementsByClassName("slideshow_area")[0].style.marginLeft =
     "-" + slidewidth * slideItem + "px";
-    var objs = document.getElementsByClassName("button");
-    for (var i=0;i < objs.length; i++){
-      if (i == pos){
-        objs[i].style.backgroundColor = "black";
-      } else {
-        objs[i].style.backgroundColor = "gray";
-      };
+  var objs = document.getElementsByClassName("button");
+  for (var i = 0; i < objs.length; i++) {
+    if (i == pos) {
+      objs[i].style.backgroundColor = "black";
+    } else {
+      objs[i].style.backgroundColor = "gray";
     }
-  
+  }
 }
